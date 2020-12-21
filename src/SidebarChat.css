@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .sidebarChat {
   display: flex;
   padding: 15px;
@@ -7,6 +12,11 @@
 
 .sidebarChat:hover {
   background-color: #ebebeb;
+}
+
+.sidebarChat > h2 {
+  flex: 1;
+  text-align: center;
 }
 
 .sidebarChat__info {
